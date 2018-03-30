@@ -20,7 +20,24 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+cd	Home directory
+cd [folder]	Change directory
+cd ~	Home directory
+cd /	Root of drive
+ls	Short listing
+ls -l	Long listing
+ls -a	Listing incl. hidden files
+ls -lh	Long listing with Human readable file sizes
+ls -R	Entire content of folder recursively
+sudo [command]	Run command with the security privileges of the superuser (Super User DO)
+open [file]	Opens a file
+open .	Opens the directory
+top	Displays active processes. Press q to quit
+nano [file]	Opens the Terminal it’s editor
+pico	[file]	Opens the Terminal it’s editor
+q	Exit
+clear	Clear screen
 
 ---
 
@@ -35,7 +52,14 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+Short listing
+Listing incl. hidden files
+Long listing
+Long listing with Human readable file sizes
+Long listing with Human readable file sizes, including files starting with '.'
+Long listing with Human readable file sizes, sorted by modification times, newest first
+Long listing, with no group names, append / indicator to directories
 
 ---
 
@@ -43,7 +67,12 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > 
+-b	Displays nonprinting characters in octal.
+-c	Displays files by file timestamp.
+-f	Interprets each name as a directory, not a file.
+-m	Displays the names as a comma-separated list.
+-n	Displays the long format listing, with GID and UID numbers.
 
 ---
 
@@ -51,7 +80,10 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
-
+> > 
+'build and execute command lines from standard input'
+echo 'one two three' | xargs mkdir
+ls
+one two three
  
 
